@@ -12,11 +12,21 @@ color: white;
 
   b {
 
-    color: white
+    color: white;
   }
 
 
   a {
-color: skyblue
 
+color: skyblue;
+
+  font-size:13px;
+
+  }
+
+
+  div {
+    
+      font-size: 17px;
+    color:white
   }
