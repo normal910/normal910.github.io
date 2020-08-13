@@ -6,7 +6,8 @@ background: rgb(9, 9, 9)
   p {
 
 color: white;
-
+text-decoration:underline
+underline white
   }
   
 
@@ -29,4 +30,13 @@ color: skyblue;
     
       font-size: 17px;
     color:white
+  }
+
+
+
+  div1 {
+  font-size: 15px;
+  color:white
+
+
   }
