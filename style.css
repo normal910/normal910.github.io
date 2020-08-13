@@ -42,11 +42,13 @@ color: skyblue;
 
 
   div1 {
-  font-size: 15px;
-  color:white
 
-
+    color:white;
+    font-size: 17px;
   }
+
+
+  
  
 
   body, html {
