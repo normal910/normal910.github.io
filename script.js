@@ -1,1 +1,1 @@
-alert("Page is not ready yet");
+alert("Im still  testing the backround :)");
