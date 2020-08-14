@@ -21,8 +21,8 @@ background-color: rgb(9,9,9);
   p {
 
 color: white;
-text-decoration:underline
-underline white
+
+
   }
   
 
@@ -35,10 +35,21 @@ underline white
   a {
 
 color: skyblue;
-
-  font-size:19px;
+font-size:20px;
 
   }
+
+
+div2 {
+font-size:14px;
+color:white;
+
+
+}
+
+
+
+
 
 
   :root {
@@ -59,7 +70,7 @@ color: skyblue;
   
 
   body1 {
-    height: 500px;
+    height: 300px;
     margin: 0 auto;
     display: grid;
     place-items: center;

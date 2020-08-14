@@ -2,6 +2,9 @@
 <html>
 
   <head>
+
+    <script src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.js'></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <meta charset="UTF-8">
     <script src="https://kit.fontawesome.com/f5a444958a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -10,7 +13,12 @@
 
  
 <title>Main Page</title>
+
+
   <body>
+
+
+
 <script src="script.js"></script>
 
    <center> <img src="bild.png" height="15%" width="15%" alt="5px" /></center>
@@ -31,7 +39,9 @@
 
     <div>
       <center>
-      <a href="https://www.instagram.com/ausrs.exe/" target="_blank">instagram</a>
+        <a href="https://www.instagram.com/ausrs.exe/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/Eggycapibara910"  target="_blank"><i class="fab fa-twitter"></i></a>
+      
     </center>
 </div>
 
@@ -44,6 +54,21 @@
 </div>
 
 </body1>
+
+<input type="text" value="xxx" id="link" class="span3" />
+<button type="button" class="btn btn-info btn-sm" onclick="copyToClipboard('#link')">
+    Copy Input Value
+</button>
+
+
+
+<script type="text/javascript">
+function copyToClipboard(element) {
+  $(element).select();
+  document.execCommand("copy");
+}
+</script>
+
 
 
 
@@ -60,9 +85,9 @@
     </style>
     
     <div2 class="footer">
-      <p>Footer</p>
-      <center><a href = "mailto: danielvetter@pm.me">Contact</a></center>
-      <p style="color:white;font-size:10px;">2020</p>
+      
+      
+      <p style="color:white;font: size 5px;">2020</p>
     </div2>
 
 
