@@ -1,1 +1,1 @@
-alert("Buttons are on testing");
+//alert("Buttons are on testing");
